@@ -10,7 +10,7 @@ The PCA function takes two parameters, the training set and alpha, where alpha i
 • The centered data is the used to compute the covariance matrix. 
 • The Eigenvalues and Eigenvectors are obtained from the covariance matrix. 
 • After computing the EigenValues, the number of dominant Eigenvectors which will be used are determined the value of alpha. 
-• The sliced Eigenvectors are then used as a projection matrix. The training data is projected onto this matrix by multiplying data with the matrix, and the same is done with the testing data afterwards  
+• The sliced Eigenvectors are then used as a projection matrix. The training data is projected onto this matrix by multiplying data with the matrix, and the same is done with the testing data afterwards.  
 • A KNN classifier is used to classify the projected testing set. KNN classifier determinse the label for each element by calculating Euclidean distance and choosing the label based on the nearest K points.
 
 Results of PCA show that the accuracy increases as alpha increases up to to a certain value of alpha then the accuracy decreases.
