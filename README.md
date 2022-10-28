@@ -32,7 +32,7 @@ Different values of K for the KNN classifier were used for both algorithms to tu
 • Used a 70/30 training to testing data rather than a 50/50 split and compared accuracies obtained.
 • Results showed that the 70/30 split always resulted in higher accuracy scores than the 50/50 split.
 
-
+### Faces vs Non-faces
 The purpose of using PCA and LDA was then changed, where it was required to detect whether an image was a face or a non-face. For the non-faces data, the Pepsi and Cocacola Images dataset from Kaggel was used. Then, the number of non-faces data was changed while keeping the number of faces constant at 200, and the performance was measured through the accuracy.
 
 Results showed that the accuracy increased as the number of non-faces increased up to around 280 non-faces, then the accuracy decreased.
